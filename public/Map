@@ -1,0 +1,13 @@
+src/
+├── components/
+│   ├── Header.tsx
+│   ├── Hero.tsx
+│   ├── Menu.tsx
+│   └── Footer.tsx
+├── App.tsx
+├── main.tsx
+├── api/ifood.ts   <-- (Simulação de integração)
+├── types/
+│   └── Product.ts
+├── assets/
+│   └── images/ (coloque aqui as imagens dos produtos e logo)
