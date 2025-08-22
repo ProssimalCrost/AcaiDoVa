@@ -40,7 +40,7 @@ export default function BackG() {
       </div>
 
       {/* Seção de conteúdo */}
-      <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-purple-800 to-purple-600 px-8">
+      <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-purple-800 to-red-600 px-8">
         <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           
           {/* Texto animado */}
