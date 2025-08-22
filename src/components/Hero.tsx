@@ -1,5 +1,6 @@
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import { motion } from 'framer-motion';
+import React from 'react';
 
 export default function BackG() {
   return (
@@ -16,28 +17,31 @@ export default function BackG() {
               width: '100%',
               height: '100%',
               objectFit: 'cover',
-              
               top: 0,
               left: 0,
               zIndex: -1
             }}
           />
         </Parallax>
-      
-         {/* Gradiente de transição */}
-    <div
-      className="
-        absolute bottom-0 left-0 w-full
-        h-20            /* ajuste a altura até ficar suave */
-        bg-gradient-to-b
-        from-transparent /* topo: transparente */
-        to-purple-800    /* base: mesma cor do início da sua section */
-        pointer-events-none
-        z-0
-      "
-    ></div>
 
+     {/* Overlay para escurecer o fundo */}
+     {/* Gradiente de transição */}
+
+      <div
+        className="
+          absolute bottom-0 left-0 w-full
+          h-20            /* ajuste a altura até ficar suave */
+          bg-gradient-to-b
+          from-transparent /* topo: transparente */
+          to-purple-800    /* base: mesma cor do início da sua section */
+          pointer-events-none
+          z-0
+        "
+      >
       </div>
+   </div>
+
+        
 
       {/* Seção de conteúdo */}
       <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-purple-800 to-red-600 px-8">
