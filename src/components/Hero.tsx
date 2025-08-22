@@ -6,11 +6,11 @@ export default function BackG() {
     
     <ParallaxProvider>
     
-      <div style={{ position: 'relative', height: '78vh', overflow: 'hidden' }}>  
+      <div style={{ position: 'relative', height: '90vh', overflow: 'hidden' }}>  
       
         <Parallax speed={-50}>
           <img 
-            src="src/assets/images/background/images/gptroxo.png" 
+            src="src/assets/images/background/images/tigelaroxa.webp" 
             alt="Parallax Background"
             style={{
               width: '100%',
