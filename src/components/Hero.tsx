@@ -1,13 +1,15 @@
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import { motion } from 'framer-motion';
-import React from 'react';
+
+
 
 export default function BackG() {
   return (
     
     <ParallaxProvider>
     
-      <div style={{ position: 'relative', height: '90vh', overflow: 'hidden' }}>  
+      <div style={{ position: 'relative', height: '90vh', overflow: 'hidden' } }
+       className="bg-[#6F08EF] min-h-[100dvh]">  
       
         <Parallax speed={-50}>
           <img 
@@ -19,7 +21,8 @@ export default function BackG() {
               objectFit: 'cover',
               top: 0,
               left: 0,
-              zIndex: -1
+              zIndex: -1,
+             
             }}
           />
         </Parallax>

@@ -2,7 +2,7 @@ import 'flowbite';
 
 export function Header() {
     return (
-        <nav className="fixed top-0 left-0 w-full z-50 bg-transparent">
+        <nav className="fixed top-0 left-0 w-full z-50 bg-transparent ">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img
