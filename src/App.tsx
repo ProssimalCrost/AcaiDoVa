@@ -19,7 +19,7 @@ function App() {
       <Header />
 
       {/* Conteúdo principal, com padding para não ficar sob o Header */}
-        <Hero />
+      <Hero />
 
       <Footer/>
     </div>
