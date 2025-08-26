@@ -35,7 +35,7 @@ export default function BackG() {
         </Parallax>
         
         <div className="absolute inset-0 z-50 flex items-center justify-center px-4">
-         <CarouselLite className="w-full max-w-4xl h-[260px] md:h-[380px] lg:h-[480px] mx-auto rounded-2xl shadow-2xl"
+         <CarouselLite className="w-full max-w-5xl h-[260px] md:h-[380px] lg:h-[600px] mx-auto rounded-2xl shadow-2xl"
 
             slides={[
               { src: "src/assets/images/background/images/3tigelas.jpg", alt: "Destaque 1" },
