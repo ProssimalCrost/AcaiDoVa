@@ -1,4 +1,5 @@
 import 'flowbite';
+import açaiMarketing from 'public/açaiMarketing/logoacai.png';
 
 export function Header() {
     return (
