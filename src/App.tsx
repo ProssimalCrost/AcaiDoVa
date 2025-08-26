@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import type { Product } from './types/Product';
 import {Footer} from './components/Footer';
 
+
 function App() {
   const [products, setProducts] = useState<Product[]>([
     // aqui pode vir um fetch ou dados mock
@@ -20,7 +21,8 @@ function App() {
 
       {/* Conteúdo principal, com padding para não ficar sob o Header */}
       <Hero />
-
+      
+      {/* Rodapé */}
       <Footer/>
     </div>
   );

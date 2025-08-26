@@ -1,13 +1,19 @@
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import { motion } from 'framer-motion';
+import CarouselLite from "./carrossel"; 
 
 
 
 export default function BackG() {
+  const slides = [
+    { src: "src/assets/images/background/images/3tigelas.jpg", alt: "Destaque 1" },
+    { src: "src/assets/images/background/images/gpt.png", alt: "Destaque 2" },
+    { src: "src/assets/images/background/images/tigelas.jpg", alt: "Destaque 3" },
+  ];
+
   return (
-    
     <ParallaxProvider>
-    
+
       <div style={{ position: 'relative', height: '90vh', overflow: 'hidden' } }
        className="bg-[#6F08EF] min-h-[100dvh]">  
       
@@ -21,11 +27,23 @@ export default function BackG() {
               objectFit: 'cover',
               top: 0,
               left: 0,
-              zIndex: -1,
-             
+              zIndex: 0,
+                          
             }}
           />
+          
         </Parallax>
+        
+        <div className="absolute inset-0 z-50 flex items-center justify-center px-4">
+         <CarouselLite className="w-full max-w-4xl h-[260px] md:h-[380px] lg:h-[480px] mx-auto rounded-2xl shadow-2xl"
+
+            slides={[
+              { src: "src/assets/images/background/images/3tigelas.jpg", alt: "Destaque 1" },
+              { src: "src/assets/images/background/images/gpt.png", alt: "Destaque 2" },
+              { src: "src/assets/images/background/images/tigelas.jpg", alt: "Destaque 3" },
+            ]}
+          />
+        </div>
 
      {/* Overlay para escurecer o fundo */}
      {/* Gradiente de transição */}
@@ -42,9 +60,7 @@ export default function BackG() {
         "
       >
       </div>
-   </div>
-
-        
+   </div> 
 
       {/* Seção de conteúdo */}
       <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-purple-800 to-red-600 px-8">
@@ -83,6 +99,7 @@ export default function BackG() {
           </motion.div>
         </div>
       </section>
+      
     </ParallaxProvider>
   );
 }
