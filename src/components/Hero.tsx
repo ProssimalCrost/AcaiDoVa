@@ -5,12 +5,7 @@ import CarouselLite from "./carrossel";
 
 
 export default function BackG() {
-  const slides = [
-    { src: "src/assets/images/background/images/3tigelas.jpg", alt: "Destaque 1" },
-    { src: "src/assets/images/background/images/gpt.png", alt: "Destaque 2" },
-    { src: "src/assets/images/background/images/tigelas.jpg", alt: "Destaque 3" },
-  ];
-
+  
   return (
     <ParallaxProvider>
 
