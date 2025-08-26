@@ -6,7 +6,7 @@ export function Header() {
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img
-                        src="src/assets/images/design-de-logotipo-de-mangosteen-modelo-de-ilustracao-vetorial-criativa-do-logotipo-mangosteen_647432-1846.png"
+                        src="public/images/design-de-logotipo-de-mangosteen-modelo-de-ilustracao-vetorial-criativa-do-logotipo-mangosteen_647432-1846.png"
                         className="w-20 h-20 rounded"
                         alt="Logo"
                     />

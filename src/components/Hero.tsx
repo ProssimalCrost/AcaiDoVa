@@ -14,7 +14,7 @@ export default function BackG() {
       
         <Parallax speed={-50}>
           <img 
-            src="src/assets/images/background/images/tigelaroxa.webp" 
+            src="public/images/background/images/tigelaroxa.webp" 
             alt="Parallax Background"
             style={{
               width: '100%',
@@ -33,10 +33,10 @@ export default function BackG() {
          <CarouselLite className="w-full max-w-5xl h-[260px] md:h-[380px] lg:h-[600px] mx-auto rounded-2xl shadow-2xl"
 
             slides={[
-              { src: "src/assets/açaiMarketing/logoacai.png", alt: "Destaque 1" },
-              { src: "src/assets/açaiMarketing/3acai.jpg", alt: "Destaque 2" },
-              { src: "src/assets/açaiMarketing/morango.jpg", alt: "Destaque 3" },
-              { src: "src/assets/açaiMarketing/tigela.jpg", alt: "Destaque 4" },
+              { src: "public/açaiMarketing/logoacai.png", alt: "Destaque 1" },
+              { src: "public/açaiMarketing/3acai.jpg", alt: "Destaque 2" },
+              { src: "public/açaiMarketing/morango.jpg", alt: "Destaque 3" },
+              { src: "public/açaiMarketing/tigela.jpg", alt: "Destaque 4" },
             ]}
           />
         </div>
@@ -88,7 +88,7 @@ export default function BackG() {
             className="flex justify-center"
           >
             <img
-              src="src/assets/images/background/parallax/Website_Collections_HeaderBanner_SFP_1013x900_a01e4949-4e8b-4310-b28f-c4ae7602a820.webp"
+              src="public/images/background/parallax/Website_Collections_HeaderBanner_SFP_1013x900_a01e4949-4e8b-4310-b28f-c4ae7602a820.webp"
               alt="Mulher comendo açaí"
               className="w-full max-w-md rounded-3xl shadow-lg"
             />
