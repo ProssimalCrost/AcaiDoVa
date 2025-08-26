@@ -90,7 +90,7 @@ export default function CarouselLite({
   return (
     <div
       ref={containerRef}
-      className={`relative w-full overflow-hidden rounded-2xl shadow-2xl ${className}`}
+      className={`relative w-full overflow-hidden rounded-2xl shadow-5xl ${className}`}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
@@ -104,7 +104,7 @@ export default function CarouselLite({
             <img
               src={s.src}
               alt={s.alt ?? `slide-${i}`}
-              className={`w-full h-[360px] object-cover ${slideClassName}`}
+              className={`w-full h-[600px] object-contain ${slideClassName}`}
               draggable={false}
             />
           </div>

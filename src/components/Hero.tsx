@@ -38,9 +38,10 @@ export default function BackG() {
          <CarouselLite className="w-full max-w-5xl h-[260px] md:h-[380px] lg:h-[600px] mx-auto rounded-2xl shadow-2xl"
 
             slides={[
-              { src: "src/assets/images/background/images/3tigelas.jpg", alt: "Destaque 1" },
-              { src: "src/assets/images/background/images/gpt.png", alt: "Destaque 2" },
-              { src: "src/assets/images/background/images/tigelas.jpg", alt: "Destaque 3" },
+              { src: "src/assets/açaiMarketing/logoacai.png", alt: "Destaque 1" },
+              { src: "src/assets/açaiMarketing/3acai.jpg", alt: "Destaque 2" },
+              { src: "src/assets/açaiMarketing/morango.jpg", alt: "Destaque 3" },
+              { src: "src/assets/açaiMarketing/tigela.jpg", alt: "Destaque 4" },
             ]}
           />
         </div>
