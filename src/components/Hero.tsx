@@ -1,12 +1,6 @@
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import { motion } from 'framer-motion';
 import CarouselLite from "./carrossel"; 
-import acai3 from '@/assets/acaiMarketing/3acai.jpg';
-import acaiLogo from '@/assets/acaiMarketing/logoacai.png';
-import acaiMorango from '@/assets/acaiMarketing/morango.jpg';
-import acaiTigela from '@/assets/acaiMarketing/tigela.jpg';
-import mulhercomendo from '@/assets/images/background/parallax/Website_Collections_HeaderBanner_SFP_1013x900_a01e4949-4e8b-4310-b28f-c4ae7602a820.webp';
-import tigelaroxa from '@/assets/images/background/images/tigelaroxa.webp'; 
 
 
 export default function BackG() {
